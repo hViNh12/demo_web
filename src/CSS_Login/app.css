@@ -1,0 +1,122 @@
+/* app.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(139, 23, 139);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Đảm bảo không có margin */
+}   
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.login-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6a0dad;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container button:after {
+    content: ' ➤';
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.login-container button:hover {
+    background-color: #5a0cbe;
+}
+
+.login-footer {
+    display: flex;
+    flex-direction: column; /* Đổi hướng thành cột */
+    align-items: center;
+}
+
+.login-footer a {
+    color: rgb(7, 7, 234);
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px; /* Khoảng cách giữa các liên kết */
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+.back-home-button {
+    position: fixed;
+    bottom: 60px; /* Cách dưới cùng 20px */
+    right: 60px; /* Cách bên phải 20px */
+    color: #fff; /* Màu chữ của nút */
+    background-color: #6a0dad; /* Màu nền của nút */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s; /* Thêm hiệu ứng chuyển đổi màu nền */
+    text-align: center; /* Căn giữa văn bản trong nút */
+    padding: 20px;
+}
+
+.back-home-button:hover {
+    background-color: #5a0cbe; /* Màu nền khi hover */
+}

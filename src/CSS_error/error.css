@@ -1,0 +1,48 @@
+/* error.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(139, 23, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    text-align: center;
+    padding: 20px;
+    background: rgb(71, 10, 71);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h1 span {
+    color: #e74c3c;
+}
+
+p {
+    font-size: 1rem;
+    color: wheat;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error-image {
+    max-width: 300px; /* Điều chỉnh kích thước tối đa của ảnh */
+    height: auto;
+    margin: 20px 0;
+}

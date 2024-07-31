@@ -1,0 +1,73 @@
+/* state.css */
+
+/* Cập nhật background màu cho body */
+body {
+    background-color: rgb(125, 7, 125);
+    color: white; /* Đặt màu chữ mặc định là trắng để phù hợp với nền */
+    font-family: Arial, sans-serif; /* Đặt font chữ mặc định */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style cho container chính của SearchFilter */
+.search-filter-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Nền sáng cho container */
+    color: black; /* Màu chữ bên trong container */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm bóng để nổi bật hơn */
+}
+
+/* Style cho input tìm kiếm */
+.search-filter-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style cho danh sách kết quả */
+.search-filter-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-filter-container li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.search-filter-container li:last-child {
+    border-bottom: none;
+}
+
+/* Style cho các thông báo lỗi và trạng thái tải */
+.search-filter-container p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Style cho nút quay lại trang chủ */
+.home-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.home-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(100, 0, 100); /* Màu nền của nút quay lại */
+    color: white; /* Màu chữ của nút */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.home-button a:hover {
+    background-color: rgb(125, 7, 125); /* Màu nền khi di chuột qua nút */
+}
